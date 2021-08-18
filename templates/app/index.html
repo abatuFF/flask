@@ -1,12 +1,7 @@
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Darova</title>
-</head>
-<body>
-	<H2>привет , {{name}}</H2>
-	<p>gender - {{ gender }}</p>
-	<p>you are {{ age  }} yers old</p>
-	<a href="{{url_for('index')}}">Home</a>
-</body>
-</html>
+{% extends 'base.html'%}
+{% block title %} счетчик {% endblock %}
+
+{% block content%}
+	<h1>Hello</h1>
+	<p>Number of souls lost- {{ count }} </p>
+{% endblock %}

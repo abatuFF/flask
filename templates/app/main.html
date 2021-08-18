@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+{% block title %} View {% endblock title %}
+{% block test %}
+
+	<H2>hello , {{name}}</H2>
+	<p>gender - {{ gender }}</p>
+	<p>you are {{ age  }} yers old</p>
+<!-- 	<span>{{posts}}</span><br> -->
+	{%for post in posts%}
+		<p>{{post}}</p>
+	{% endfor %}
+	<a href="{{url_for('second')}}">on me</a>
+{% endblock test %}

@@ -1,0 +1,16 @@
+* {
+	font-family: 'Metal Mania', cursive;
+}
+
+.main{
+	text-align:center;
+	margin-top:50px;
+}
+
+h1 {
+	color:red;
+}
+
+p{
+	font-size:24pt;
+}
